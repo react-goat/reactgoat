@@ -1,10 +1,10 @@
-import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./pages/Home/Home";
-import Food from "./pages/Food/Food";
-import Category from "./pages/Category/Category";
-import CategoryDetail from "./pages/CategoryDetail/CategoryDetail";
-import My from "./pages/My/My";
+import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home/Home';
+import Food from './pages/Food/Food';
+import Category from './pages/Category/Category';
+import CategoryDetail from './pages/CategoryDetail/CategoryDetail';
+import My from './pages/My/My';
 
 const Router = () => {
   return (
