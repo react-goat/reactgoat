@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+    format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.blockWrapper {
+  border-radius: 10px;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 40%,
+      rgba(0, 0, 0, 0.7) 74.6%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url(<path-to-image>) lightgray 50% / cover no-repeat;
+
+  background-size: 150px cover;
+  background-repeat: no-repeat;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.25);
+  width: 110px;
+  height: 136px;
+  position: relative;
+  padding: 6px;
+}
+
+.textWrapper {
+  position: absolute;
+  top: 90px;
+  font-family: 'Pretendard-Regular';
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.title {
+  color: #fff;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.subtextWrapper {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.likeCount {
+  color: #fb3a4d;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.level {
+  background-color: #ffa73f;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  /* width: 30px; */
+  padding: 2px 5px;
+  text-align: center;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 0.5px;
+}
