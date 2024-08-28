@@ -1,0 +1,9 @@
+/* Home.css */
+
+.food-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 한 행에 3개의 열 생성 */
+  gap: 10px; /* 아이템 간 간격 조정 */
+  justify-items: center; /* 아이템을 중앙 정렬 */
+  padding: 10px; /* 컨테이너의 패딩 조정 */
+}
