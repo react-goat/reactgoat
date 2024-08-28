@@ -1,3 +1,5 @@
+// Home.jsx
+
 import React from 'react';
 import styled from 'styled-components';
 import PriceCard from '../../components/common/PriceCard';
@@ -5,6 +7,7 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
+
     <HomeContainer>
       <Header>
         <Title>실시간 식재료</Title>

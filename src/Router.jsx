@@ -5,6 +5,7 @@ import Food from './pages/Food/Food';
 import Category from './pages/Category/Category';
 import CategoryDetail from './pages/CategoryDetail/CategoryDetail';
 import My from './pages/My/My';
+import Footer from './components/common/Footer';
 
 const Router = () => {
   return (
@@ -16,6 +17,7 @@ const Router = () => {
         <Route path="/categoryDetail" element={<CategoryDetail />} />
         <Route path="/my" element={<My />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 };
