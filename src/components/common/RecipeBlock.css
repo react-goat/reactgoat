@@ -30,6 +30,9 @@
   position: absolute;
   top: 90px;
   font-family: 'Pretendard-Regular';
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
 }
 
 .title {
@@ -52,4 +55,19 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+.level {
+  background-color: #ffa73f;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  /* width: 30px; */
+  padding: 2px 5px;
+  text-align: center;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 0.5px;
 }
